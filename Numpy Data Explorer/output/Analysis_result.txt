@@ -1,0 +1,140 @@
+========================================
+        NUMPY DATA EXPLORER
+========================================
+
+Dataset: student_marks.npy
+
+Dataset Information
+-------------------
+Number of Students: 10
+Number of Subjects: 4
+Shape: (10, 4)
+Dimensions: 2
+Total Elements: 40
+Data Type: int64
+
+
+Original Dataset
+----------------
+
+            Math   Science   English   Computer
+Student 1    78       85        72        90
+Student 2    65       70        68        75
+Student 3    92       88        85        95
+Student 4    55       60        62        58
+Student 5    81       79        88        84
+Student 6    74       82        76        80
+Student 7    88       91        84        89
+Student 8    69       73        71        77
+Student 9    95       94        91        97
+Student 10   60       67        65        70
+
+
+
+Statistical Analysis
+--------------------
+
+Overall Mean: 78.075
+Overall Median: 78.5
+Maximum Mark: 97
+Minimum Mark: 55
+Standard Deviation: 11.439815339418727
+Total Marks: 3123
+
+
+Subject-wise Analysis
+---------------------
+
+Math
+Mean: 75.7
+Median: 76.0
+Maximum: 95 
+Minimum: 55
+
+Science
+Mean: 78.9 
+Median: 80.5 
+Maximum: 94 
+Minimum: 60
+
+English
+Mean: 76.2
+Median: 74.0
+Maximum: 91 
+Minimum: 62
+
+Computer
+Mean: 81.5
+Median: 82.0
+Maximum: 97
+Minimum: 58
+
+
+Student-wise Average
+--------------------
+
+Student 1:  81.25
+Student 2:  69.50
+Student 3:  90.00
+Student 4:  58.75
+Student 5:  83.00
+Student 6:  78.00
+Student 7:  88.00
+Student 8:  72.50
+Student 9:  94.25
+Student 10: 65.50
+
+
+Reshaping Example
+-----------------
+
+Original Shape: (12,)
+New Shape: (2, 6)
+
+
+Broadcasting Example
+--------------------
+
+Bonus Marks:
+Math: +5
+Science: +4
+English: +6
+Computer: +2
+
+The bonus was broadcast across all student rows.
+
+
+
+File Operations
+---------------
+
+Updated array saves as:
+updated_student_marks.npy
+
+Array successfully loaded from file.
+
+
+
+Performance Comparison
+----------------------
+
+Dataset Size: 1,000,000 elements
+
+Python List Operation Time: 0.034629106521606445
+NumPy Array Operation Time: 0.012064218521118164
+
+Note:
+Performance results depend on the computer,
+Python version, NumPy version, and system load.
+
+
+Conclusion
+----------
+
+The project demonstrates the fundamental capabilities of NumPy
+for numerical data exploration and computation.
+
+The analysis covered array creation, indexing, slicing,
+mathematical operations, statistical calculations, axis-wise
+operations, reshaping, broadcasting, saving/loading arrays,
+and performance comparison with standard Python lists.
